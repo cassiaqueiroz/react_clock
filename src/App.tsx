@@ -41,8 +41,6 @@ export class App extends React.Component {
     this.setState({ hasClock: false });
   };
 
-  today = new Date();
-
   // this code stops the timer
   render() {
     return (
